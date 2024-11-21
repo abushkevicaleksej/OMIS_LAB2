@@ -11,4 +11,3 @@ if __name__ == "__main__":
     mc = MainController()
     view = AuthWindow()
     view.mainloop()
-    view.bind('<q>', view.destroy())
